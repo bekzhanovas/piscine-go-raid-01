@@ -25,5 +25,4 @@ func Raid1a(x, y int) {
 	}
 	z01.PrintRune(111)
 	z01.PrintRune(10)
-  }
-  
+}
