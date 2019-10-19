@@ -6,7 +6,7 @@ import (
 
 func Raid1b(x, y int) {
 	if y > 1 {
-		if x > 0 {
+		if x >= 0 {
 			z01.PrintRune('/')
 		}
 		for i := 1; i <= x-2; i++ {
@@ -36,7 +36,7 @@ func Raid1b(x, y int) {
 		}
 	}
 
-	if y >= 1 {
+	if y > 1 {
 		if x > 0 {
 			z01.PrintRune(rune('\\'))
 		}
